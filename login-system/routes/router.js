@@ -42,4 +42,13 @@ router.post('/login', (req, res) => {
 });
 
 
+
+//tipos get
+
+router.get('/contato', (req, res) => {
+    return res.status(200).render('contato');
+
+});
+
+
 module.exports = router;
